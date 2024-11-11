@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  position: relative;
+  left: 30%;
+  bottom: 50px;
+  color: #283747;
+}
+
+h2 {
+  position: relative;
+  font-size: 32px;
+  left: 25%;
+  bottom: 50px;
+  color: #17a589;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  left: 54%;
+  bottom: 45px;
+  padding: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
