@@ -1,0 +1,212 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Color de fondo general */
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Contenedor principal centrado */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00bfff;
+}
+
+/* Formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botón principal */
+button,
+form input[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+form input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Listado de Canciones en Add Playlist */
+.song-list {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.song-list div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.song-list label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.song-list input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+/* Lista de Playlists */
+.playlist {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.playlist h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.playlist p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Campo de Búsqueda */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Encabezados */
+h2, h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* Texto */
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Estilo del componente AddPlaylist */
+.add-playlist-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-playlist-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-playlist-container label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-playlist-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+.add-playlist-container button {
+  width: 100%;
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-playlist-container button:hover {
+  background-color: #218838;
+}
